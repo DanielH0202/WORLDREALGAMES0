@@ -1,0 +1,183 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #333;
+	background: #ffffff;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+ 
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+ 
+p {
+	margin: 0 0 1.5em 0;
+}
+ 
+img {
+	max-width: 50%;
+	height: auto;
+}
+
+#main-header-header {
+	background: #000000;
+	color: white;
+	height: 80px;
+}	
+	#main-header a {
+		color: white;
+                
+	}
+ 
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+ 
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+                                
+    #main-content {
+	width: 90%;
+	margin: 20px auto;
+	
+}
+ 
+	#main-content header,
+	#main-content .content {
+		padding: 5px;
+
+	}
+        
+        #main-footer {
+	background: #000000;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+	#main-footer p {
+		margin: 0;
+	}
+	
+	#main-footer a {
+		color: white;
+	}
+        
+        
+        #main-header {
+	background: #000000;
+	color: white;
+	height: 80px;
+	
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #fff;
+	font-size: 1em;
+	line-height: 1.5em;
+	
+	padding-top: 80px;  /* Relleno superior igual a la altura de la cabecera */
+        border: 40px;
+	
+}
+
+
+
+#main-container{
+	margin: 150px auto;
+	width: 600px;
+}
+
+table{
+	background-color: white;
+	width: 100%;
+        border: 20px;
+        
+}
+
+th, td{
+	padding: 5px;
+        
+}
+
+thead{
+	background-color: lightcyan;
+	border-bottom: solid 5px lightcyan;
+	color: white;
+}
+
+
+
+tr:hover td{
+	background-color: lightblue;
+	color: #333;
+}
+h4{
+    alignment: center;
+}
+input{
+    background-color: lightyellow;
+}
